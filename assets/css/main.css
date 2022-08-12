@@ -2722,7 +2722,7 @@
 	}
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 0em 0 0em 0;
 	}
 
 		.wrapper > .inner {
@@ -2736,7 +2736,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+			background-image: url("../../images/banner.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -2752,7 +2752,7 @@
 				@media screen and (max-width: 1280px) {
 
 					.wrapper.style3 header.major {
-						margin-bottom: 2em;
+						margin-bottom: 0em;
 					}
 
 				}
@@ -2964,7 +2964,7 @@
 			position: absolute;
 			text-align: center;
 			top: 0.5em;
-			width: 3.5em;
+			width: scroll;
 		}
 
 	#navPanel {
@@ -3089,14 +3089,16 @@
 	}
 
 	#banner {
-		padding: 16em 0 13em 0;
-		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		padding: 10em 0 25em 0;
+		background-attachment: scroll;
+		background-image: url("images/overlay.png"), url("../../images/mongolia.png");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
 		text-align: center;
-	}
+		width: ; object-fit: scale-down;
+		height: 5em;	
+}
 
 		#banner:last-child {
 			margin-bottom: 0;
@@ -3105,16 +3107,21 @@
 		#banner h2 {
 			color: #ffffff;
 			display: inline-block;
-			font-size: 3.5em;
-			line-height: 1.35;
-			margin-bottom: 0.5em;
+			font-size: 3.0em;
+			line-height: 1.75;
+			margin-bottom: -0.5em;
+			margin-top: -1.5em;
+			vertical-align: top;
 		}
 
 		#banner p {
-			color: #aaa;
-			font-size: 1.5em;
-			margin-bottom: 1.75em;
+			color: #707070;
+			font-size: 1.35em;
+                        margin-top: -0.55em;
+			margin-bottom: 4.75em;
+	                line-height: 1.5;
 			text-transform: uppercase;
+			vertical-align: top;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3122,10 +3129,15 @@
 			#banner {
 				padding: 14em 0 11em 0;
 			}
-
-				#banner h2 {
-					font-size: 2.5em;
-				}
+                        #banner h2 {
+	                        line-height: 1.75;
+                                font-size: 2.5em;
+	                        margin-top: -3.5em;
+			}
+			#banner p {
+	                        font-size: 1.2em;
+                                margin-top: -4.5em;
+			}
 
 		}
 
@@ -3134,25 +3146,32 @@
 			#banner {
 				padding: 9em 0 7em 0;
 			}
+                        #banner h2 {
+                                font-size: 2.25em;
+			}
 
 		}
 
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 6em 2em 6em 2em;
+				padding: 6em 2em 10em 2em;
 			}
 
-				#banner br {
-					display: none;
+			#banner br {
+				display: none;
 				}
 
-				#banner h2 {
-					font-size: 2.25em;
+			#banner h2 {
+				font-size: 1.5em;
+	                        margin-top: -2.0em;
+
 				}
 
-				#banner p {
-					font-size: 1.25em;
+			#banner p {
+				font-size: 1.0em;
+                                margin-top: -2.0em;
+
 				}
 
 		}
@@ -3164,6 +3183,105 @@
 			}
 
 		}
+        
+
+        body.is-touch #bannersunset {
+                background-attachment: scroll;
+        }
+
+        #bannersunset {
+                padding: 10em 0 25em 0;
+                background-attachment: scroll;
+                background-image: url("images/overlay2.png"), url("../../images/Sunset_3.jpg");
+                background-position: center top;
+                background-size: cover;
+                line-height: 1.75;
+                text-align: center;
+                width: ; object-fit: scale-down;
+                height: 5em;
+}
+
+                #bannersunset:last-child {
+                        margin-bottom: 0;
+                }
+
+                #bannersunset h2 {
+                        color: #ffffff;
+                        display: inline-block;
+                        font-size: 3.0em;
+                        line-height: 1.75;
+                        margin-bottom: -0.5em;
+                        margin-top: -0.5em;
+                        vertical-align: top;
+                }
+
+                #bannersunset p {
+                        color: #707070;
+                        font-size: 1.35em;
+                        margin-top: -0.55em;
+                        margin-bottom: 4.75em;
+                        line-height: 1.5;
+                        text-transform: uppercase;
+                        vertical-align: top;
+                }
+
+               @media screen and (max-width: 1280px) {
+
+                        #bannersunset {
+                                padding: 14em 0 11em 0;
+                        }
+                        #bannersunset h2 {
+                                line-height: 1.75;
+                                font-size: 2.5em;
+                                margin-top: -2.5em;
+                        }
+                        #bannersunset p {
+                                font-size: 1.2em;
+                                margin-top: -4.5em;
+                        }
+
+                }
+
+                @media screen and (max-width: 980px) {
+
+                        #bannersunset {
+                                padding: 9em 0 7em 0;
+                        }
+                                #bannersunset h2 {
+                                        font-size: 2.25em;
+
+                @media screen and (max-width: 736px) {
+
+                        #bannersunset {
+                                padding: 6em 2em 10em 2em;
+                        }
+
+                                #bannersunset br {
+                                        display: none;
+                                }
+
+                                #bannersunset h2 {
+                                        font-size: 1.5em;
+                                        margin-top: -2.0em;
+
+                                }
+
+                                #bannersunset p {
+                                        font-size: 1.0em;
+                                        margin-top: -2.0em;
+
+                                }
+
+                }
+
+                @media screen and (max-width: 480px) {
+
+                        #bannersunset {
+                                padding: 4em 2em 4em 2em;
+                        }
+
+                }
+
 
 /* Main */
 
