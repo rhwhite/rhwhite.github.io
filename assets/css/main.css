@@ -3181,6 +3181,16 @@
 			#banner {
 				padding: 4em 2em 4em 2em;
 			}
+                        #banner h2 {
+                                font-size: 0.9em;
+                                margin-top: -2.0em;
+
+                                }
+                        #banner p {
+                                font-size: 0.6em;
+                                margin-top: 0.0em;
+
+                                }
 
 		}
         
