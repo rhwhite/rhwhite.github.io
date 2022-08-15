@@ -3259,7 +3259,8 @@
                         }
                                 #bannerGR11 h2 {
                                         font-size: 2.25em;
-
+			}
+		}
                 @media screen and (max-width: 736px) {
 
                         #bannerGR11 {
@@ -3291,7 +3292,7 @@
                         }
 
                 }
-
+	
         #bannersunset {
                 padding: 10em 0 25em 0;
                 background-attachment: scroll;
