@@ -3195,9 +3195,102 @@
 		}
         
 
-        body.is-touch #bannersunset {
+        body.is-touch #bannerGR11 {
                 background-attachment: scroll;
         }
+
+        #bannerGR11 {
+                padding: 10em 0 25em 0;
+                background-attachment: scroll;
+                background-image: url("images/overlay3.png"), url("../../images/GR11_lakes.jpg");
+                background-position: center top;
+                background-size: cover;
+                line-height: 1.75;
+                text-align: center;
+                width: ; object-fit: scale-down;
+                height: 5em;
+		}
+
+                #bannerGR11:last-child {
+                        margin-bottom: 0;
+                }
+
+                #bannerGR11 h2 {
+                        color: #ffffff;
+                        display: inline-block;
+                        font-size: 3.0em;
+                        line-height: 1.75;
+                        margin-bottom: -0.5em;
+                        margin-top: -0.5em;
+                        vertical-align: top;
+                }
+
+                #bannerGR11 p {
+                        color: #707070;
+                        font-size: 1.35em;
+                        margin-top: -0.55em;
+                        margin-bottom: 4.75em;
+                        line-height: 1.5;
+                        text-transform: uppercase;
+                        vertical-align: top;
+                }
+
+               @media screen and (max-width: 1280px) {
+
+                        #bannerGR11 {
+                                padding: 14em 0 11em 0;
+                        }
+                        #bannerGR11 h2 {
+                                line-height: 1.75;
+                                font-size: 2.5em;
+                                margin-top: -2.5em;
+                        }
+                        #bannerGR11 p {
+                                font-size: 1.2em;
+                                margin-top: -4.5em;
+                        }
+
+                }
+
+                @media screen and (max-width: 980px) {
+
+                        #bannerGR11 {
+                                padding: 9em 0 7em 0;
+                        }
+                                #bannerGR11 h2 {
+                                        font-size: 2.25em;
+
+                @media screen and (max-width: 736px) {
+
+                        #bannerGR11 {
+                                padding: 6em 2em 10em 2em;
+                        }
+
+                                #bannerGR11 br {
+                                        display: none;
+                                }
+
+                                #bannerGR11 h2 {
+                                        font-size: 1.5em;
+                                        margin-top: -2.0em;
+
+                                }
+
+                                #bannerGR11 p {
+                                        font-size: 1.0em;
+                                        margin-top: -2.0em;
+
+                                }
+
+                }
+
+                @media screen and (max-width: 480px) {
+
+                        #bannerGR11 {
+                                padding: 4em 2em 4em 2em;
+                        }
+
+                }
 
         #bannersunset {
                 padding: 10em 0 25em 0;
@@ -3209,7 +3302,7 @@
                 text-align: center;
                 width: ; object-fit: scale-down;
                 height: 5em;
-}
+                }
 
                 #bannersunset:last-child {
                         margin-bottom: 0;
@@ -3291,7 +3384,6 @@
                         }
 
                 }
-
 
 /* Main */
 
