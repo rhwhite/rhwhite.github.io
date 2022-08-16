@@ -1997,6 +1997,12 @@
 				width: 60%;
 			}
 
+                        .feature-grid .feature .contentfull {
+                                width: 90%;
+                                margin-left: 5%;
+
+                        }
+
 			.feature-grid .feature .image {
 				width: 30%;
 			}
@@ -2840,7 +2846,7 @@
 						-webkit-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #666;
+						color: #606060;
 						display: inline-block;
 						text-decoration: none;
 					}
@@ -2893,7 +2899,7 @@
 			}
 
 				#header.alt h1 a {
-					color: #FFF;
+					color: #606060;
 				}
 
 			#header.alt nav {
@@ -2902,7 +2908,7 @@
 			}
 
 				#header.alt nav a {
-					color: #ddd;
+					color: #606060;
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
@@ -3092,6 +3098,7 @@
 		padding: 10em 0 25em 0;
 		background-attachment: scroll;
 		background-image: url("images/overlay.png"), url("../../images/mongolia.png");
+                opacity: 0.9;
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3202,7 +3209,8 @@
         #bannerGR11 {
                 padding: 10em 0 25em 0;
                 background-attachment: scroll;
-                background-image: url("images/overlay3.png"), url("../../images/GR11_lakes.jpg");
+                background-image: url("../../images/GR11_lakes.jpg");
+		opacity: 0.8;
                 background-position: center top;
                 background-size: cover;
                 line-height: 1.75;
