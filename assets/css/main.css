@@ -3395,6 +3395,106 @@
 
                 }
 
+
+	body.is-touch #bannervancouver {
+                background-attachment: scroll;
+        }
+
+        #bannervancouver {
+                padding: 10em 0 25em 0;
+                background-attachment: scroll;
+                background-image: url("../../images/Vancouver1.jpg");
+                opacity: 0.6;
+                background-position: center top;
+                background-size: cover;
+                line-height: 1.75;
+                text-align: center;
+                width: ; object-fit: scale-down;
+                height: 5em;
+                }
+
+                #bannervancouver:last-child {
+                        margin-bottom: 0;
+                }
+
+                #bannervancouver h2 {
+                        color: #ffffff;
+                        display: inline-block;
+                        font-size: 3.0em;
+                        line-height: 1.75;
+                        margin-bottom: -0.5em;
+                        margin-top: -0.5em;
+                        vertical-align: top;
+                }
+
+                #bannervancouver p {
+                        color: #707070;
+                        font-size: 1.35em;
+                        margin-top: -0.55em;
+                        margin-bottom: 4.75em;
+                        line-height: 1.5;
+                        text-transform: uppercase;
+                        vertical-align: top;
+                }
+
+               @media screen and (max-width: 1280px) {
+
+                        #bannervancouver {
+                                padding: 14em 0 11em 0;
+                        }
+                        #bannervancouver h2 {
+                                line-height: 1.75;
+                                font-size: 2.5em;
+                                margin-top: -2.5em;
+                        }
+                        #bannervancouver p {
+                                font-size: 1.2em;
+                                margin-top: -4.5em;
+                        }
+
+                }
+
+                @media screen and (max-width: 980px) {
+
+                        #bannervancouver {
+                                padding: 9em 0 7em 0;
+                        }
+                                #bannervancouver h2 {
+                                        font-size: 2.25em;
+
+                @media screen and (max-width: 736px) {
+
+                        #bannervancouver {
+                                padding: 6em 2em 10em 2em;
+                        }
+
+                                #bannervancouver br {
+                                        display: none;
+                                }
+
+                                #bannervancouver h2 {
+                                        font-size: 1.5em;
+                                        margin-top: -2.0em;
+
+                                }
+
+                                #bannervancouver p {
+                                        font-size: 1.0em;
+                                        margin-top: -2.0em;
+
+                                }
+
+                }
+
+                @media screen and (max-width: 480px) {
+
+                        #bannervancouver {
+                                padding: 4em 2em 4em 2em;
+                        }
+
+                }
+
+
 /* Main */
 
 	#main {
