@@ -49,11 +49,31 @@
 				</header>
 
 				<div class="feature-grid">
+					<header>
+						<h4>A bit about me</h4>
+					</header>
 					<div class="feature">
-						<div class="contentfull">
-							<p>I started my PhD in Atmospheric Science at UBC in January 2025. I graduated with my MSc in Atmospheric Science from UBC, also supervised by Rachel White, in November 2024. Read more about my MSc research below! Prior to this, I obtained a BSc in Honours Physics from UBC in 2021.</p>
+						<br>
+						<div class="image">
+                                        		<figure>
+                                                		<img src="images/Taylor_cropped.jpg" alt=""/>
+                                        	</div>
+						<div class="content"> 
+							<p>I started my PhD in Atmospheric Science with Dr. Rachel White in January 2025. Prior to this, I graduated with my MSc in Atmospheric Science in November 2024, also supervised by Dr. White (read more about my MSc research below!), and a BSc in Honours Physics in 2021.</p>
+							<br>
+							<p>I was born and raised in the Vancouver area, so like a typical west coaster, I love spending time outside! When I’m not working you can usually find me tending to my garden (homegrown vegetables just taste so much better!) or collecting rocks and shells at the beach. I've also been learning French for the past few years, and the picture of me on the left is in front of the Pont du Gard, a Roman aqueduct built in the first century AD in the South of France, which I visited in 2024.</p>
 						</div>
 					</div>
+				</div>
+
+				<div class="row">
+  					<div class="column">
+    						<img src="Taylor_cropped.jpg" alt="">
+  					</div>
+  					<div class="column">
+    						<img src="Taylor2.jpg" alt="">
+  					</div>
+				</div>
 
 					
 				<div class="feature-grid">
@@ -61,10 +81,27 @@
 						<h3>Research</h3>
 					</header>
 
+					<header>
+						<h5>Early Season Heatwaves</h5>
+					</header>
+
                                         <div class="contentfull">
-						<p>This is in progress. Check back soon!</p>
+						<p>In my PhD, I will be researching the atmospheric dynamics associated with heatwaves that occur early in the season, in the spring months of March through May (in the Northern Hemisphere). I am particularly interested in periods of anomalously high temperatures in the transition between winter and summer. In summer it is well known that atmospheric blocking is often associated with heatwaves; these quasi-stationary persistent events cause clear-sky conditions over periods of several days which allows radiative heating to increase temperatures. In the winter, however, these same blocking patterns typically lead to cold spells, periods of anomalously cold temperatures. Thus, I am interested in how the atmospheric dynamics that cause heatwaves change from winter to spring to summer. When does the transition occur? Are the dynamics that cause spring heatwaves more similar to those that cause summer or winter heatwaves? I plan to investigate this using reanalysis datasets. I will also investigate whether climate models can effectively capture early season heatwaves and their dynamics.</p>
+						<br>
+						<p>I am also interested in how early season heatwaves affect the following summer season. In Vancouver we had a heatwave in May 2023 which was followed by a dry summer and the worst wildfire season in British Columbia to date. This was in part because the spring heatwave accelerated snowmelt earlier in the year. I plan to investigate how early season heatwaves like that of May 2023 affect conditions that make wildfires more likely (“fire weather conditions”). I will use reanalysis data to study past spring heatwave cases and I plan to use climate models to simulate summers with and without prior spring heatwaves to compare fire weather conditions. Knowledge of how early season heatwaves affect the subsequent summer season could also increase predictability of the conditions and likelihood for more heatwaves in the following summer season. I plan to study the dynamics patterns of multiple heatwaves in the same season/year using climate models to determine if early season heatwaves make subsequent heatwaves more likely. There could potentially be sources of predictability for the timing and/or duration of subsequent summer heatwaves from early season heatwaves.</p>
 						<br>
 					</div>
+
+					<header>
+						<h5>Streamflow Forecasting</h5>
+					</header>
+
+					<div class="contentfull">
+						<p>For my MSc thesis, I developed a streamflow forecast using machine learning for a BC Hydro basin in southeast British Columbia, Mica Dam and the Kinbasket Lake Reservoir. This location was chosen because it is the first dam on the Columbia River, a basin that provides almost half of BC’s power through hydroelectricity by BC Hydro. Because this location is in the Rocky Mountains, the annual streamflow cycle is dominated by snowmelt in the spring and summer. I was interested in forecasting the streamflow volume for the upcoming year, with several months lead time. Common physics-based models of streamflow, including operational forecasts at BC Hydro, do not perform well at predicting future streamflow volume at early- or mid-winter initialization times (December, January, February) because these models rely heavily on initial conditions, and not all of the snowpack has built up yet at these early times. Increasingly, machine learning and deep learning methods are being used to model streamflow. Long Short-Term Memory (LSTM) neural networks have been shown to model streamflow well in a variety of catchment types across North America and Europe. However, the LSTM model cannot predict beyond one timestep. Thus, to forecast streamflow months in advance, I chose to develop a hybrid statistical-dynamical forecast that uses an LSTM with dynamical seasonal meteorological forecasts as input. I tested this hybrid forecast on predicting seasonal total streamflow volume at Mica with nine months lead time, i.e. initialized January 1st and forecasting up to the end of September. The results of my work have been submitted to a journal and will hopefully be published soon!</p>
+						<br>
+					</div>
+				</div>
+
 
 				<div class="feature-grid">
 					<header>
@@ -73,7 +110,8 @@
 
 					<div class="feature">
 						<ul>
-						  <li>Swift-LaPointe, T., White, R.H., and Radic, V. <i>A hybrid statistical-dynamical forecast of seasonal streamflow for the Columbia River basin in Canada.</i> Submitted.</li>
+						  <li>Swift-LaPointe, T., White, R.H., and Radic, V. <i>A hybrid statistical-dynamical forecast of seasonal streamflow for a catchment in the Upper Columbia River basin in Canada.</i> Under Review.</li>
+						  <li>Swift-LaPointe, T. <i>Seasonal forecasting of streamflow in a mountainous catchment in British Columbia.</i> MSc Thesis. Published by the University of British Columbia, Oct 2024. https://dx.doi.org/10.14288/1.0445568 </li>
 						  <li>Swift-LaPointe, T., White, R.H., and Radic, V. <i>Investigating hybrid seasonal streamflow forecasting using dynamical seasonal forecasts and Long Short-Term Memory (LSTM) neural networks.</i> Oral presentation. 58th Congress of the Canadian Meteorological and Oceanographic Society (CMOS). June, 2024.</li>
 						  <li>Swift-LaPointe, T., White, R.H., West, G., and Gobena, A. <i>Investigating seasonal forecasting of streamflow in warming climates using a Long Short-Term Memory (LSTM) neural network.</i> Oral presentation. Annual Meeting of the American Geophysical Union (AGU). Dec, 2023.</li>
 						</ul>
